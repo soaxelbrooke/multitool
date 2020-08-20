@@ -1,0 +1,17 @@
+[package]
+authors = [
+	"Stuart Axelbrooke<stuart@axelbrooke.com>"
+]
+edition = "2018"
+name = "multitool"
+readme = "README.md"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "^0.2"
+yew = "0.12"
+log = "0.4"
+wasm-logger = "0.2"
